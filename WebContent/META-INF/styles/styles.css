@@ -1,0 +1,26 @@
+h1 {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: red;
+}
+
+a:visited {
+	color: #989898;
+}
+
+body {
+	background: #F19CBB;
+}
+
+div#wrapper {
+	margin: auto;
+	background: #C9FFE5;
+	width: 800px;
+	height: 3000px;
+}

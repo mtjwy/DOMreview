@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="UTF-8" />
+	<meta name="description" content="Html5 key knowledge" />
+	<meta name="keywords"
+	content="html5 canvas,html5 tutorial,html5 tutorial, html5 doctype, html5 tags,html5 video,learn html5" />
+	<meta name="robots" content="index,follow" />
+	
+	<script src="scripts/randomcolorchange.js"> </script>
+	
+<!-- 	<base href="http://localhost/html5/"/> -->
+	
+	<link rel="stylesheet" href="styles/styles.css" />
+	
+	<title>HTML5 Tutorial</title>
+	
+</head>
+
+<body  onunload="alert('Bye Bye')">
+	<div id="wrapper">
+	
+		<noscript>Please Enable JavaScript</noscript>
+		
+		<!-- Links to the bottom by referencing the id -->
+		<a id="pageTop" href="html5wy.html#pageBottom">Goto bottom of page</a>
+		
+		<h1>Change with a Click</h1>
+		
+		<p>
+		Two hunters are out in the woods when one of them collapses. 
+		He doesn’t seem to be breathing and his eyes are glazed. The 
+		other guy whips out his phone and calls the emergency services. 
+		He gasps, “My friend is dead! What can I do?”. The operator says 
+		“Calm down. I can help. First, let’s make sure he’s dead.” <br>There 
+		is a silence, then a shot is heard. Back on the phone, the guy says 
+		“OK, now what?”
+		</p>
+		
+		<hr>
+		
+		<blockquote cite="http://epicquotes.org/view.php?id=151">
+		Never, under any circumstances, take a sleeping pill and a laxative on the same night.
+		</blockquote>
+		
+		<q cite="http://www.brainyquote.com/quotes/quotes/h/hennyyoung128883.html">If at first you don’t succeed ... so much for skydiving.</q><br><br>
+	
+		<pre>
+                  _          _
+                 (.&lt;        &gt;.)
+                \(_)________( \
+                 (___________)\\
+                    (     )     \
+                     |   |
+                     |   |
+                     |   |
+                    _|   |_
+                   (_______)
+		</pre>
+		
+		<pre>
+		<code>
+			function init(){
+				var <var>h1tags</var> = document.getElementsByTagName("h1");
+				<var>h1tags[0]</var>.onclick = changeColor;
+			}
+		</code>
+	</pre>
+	
+	<img id="danceImg" 
+		src="http://www.gifbin.com/bin/102009/1255606809_acrobatic_dance_fail.gif" 
+		width="237" height="178" alt="Dance Fail"><br>
+	
+	<a href="javascript:toggleImg()">Toggle Image</a><br>
+	
+	<b>Bold : Bold Font</b><br>
+	<strong>Strong : Bold Font</strong><br>
+	<em>Emphasis : Italic Font</em><br>
+	<i>Italic : Italic Font</i><br>
+	
+	
+	<small>Small : Short Comment</small><br>
+	<ins>Insert : Added to Document</ins><br>
+	<del>Delete : Strike</del><br>
+	<samp>Sample Programming Output</samp><br><br>
+	
+	This is an abbreviation <abbr title="abbreviation">abbrv.</abbr><br>
+	<dfn>Definition: </dfn>the formal statement of the meaning or significance of a word<br>
+	<dfn title="the formal statement of the meaning or significance of a word">Definition</dfn><br>
+	<kbd>Enter something here</kbd> <br>
+	
+	<!-- Character Entities : http://dev.w3.org/html5/html-author/charref -->
+	&cent;
+	&pound;
+	&yen;
+	&copy;
+	&reg;
+	&deg;
+	&frac14;
+	&frac12;
+	&frac34;
+	&sup2;<br>
+	
+	<!-- Superscript / Subscript -->
+	4<sup>2</sup><br>
+	
+	CO<sub>2</sub><br>
+	
+	<bdo dir="rtl">أين هو مطعم abc</bdo><br>
+	
+	<ruby>飯店<rt>hanten</rt></ruby><br>
+	
+	<a href="http://youtube.com/" title="YouTube">YouTube</a> <br>
+	
+	<a href="mailto:derekbanas@verizon.net">Send an Email</a><br>
+	
+	<img src="images/company-logos.gif" alt="imagemap example" width="370" height="350" usemap="#map" /> <br>
+	
+		<map name="map">
+		<!-- #$-:Image map file created by GIMP Image Map plug-in -->
+		<!-- #$-:GIMP Image Map plug-in by Maurits Rijk -->
+		<!-- #$-:Please do not edit lines starting with "#$" -->
+		<!-- #$VERSION:2.3 -->
+		<!-- #$AUTHOR:yu -->
+		<area shape="circle" coords="58,60,43" title="goto panda express" href="http://www.pandaexpress.com/" alt="panda" />
+		<area shape="poly" coords="122,40,143,96,237,82,242,37" title="goto disney" href="http://disney.com/" alt="disney"/>
+		<area shape="rect" coords="268,22,357,111" title="goto starbucks" href="http://www.starbucks.com/" alt="starbucks"/>
+		</map>
+		
+	
+	
+	<object data="pdf/20 simple tips to be happy now.pdf" type="application/pdf" 
+		width="750" height="400">
+	</object>
+	
+	
+<!-- 	<object data="audio/Paladin.mp3" type="audio/mpeg"> -->
+	
+<!-- 		<!-- Used to pass parameters to an embedded object  -->
+<!-- 		attributes consist of a name and value --> -->
+<!-- 		<param name="autoplay" value="true"> -->
+<!-- 		<param name="controller" value="true"> -->
+	
+<!-- 	</object> -->
+	
+	<audio controls  >
+		<source src="audio/Paladin.mp3" type="audio/wav">
+	</audio>
+	
+	<!-- Other Formats 
+	application/msword : MS Doc Files
+	application/x-java-applet : Java Applet
+	audio/mpeg : MP3s
+	image/png : PNGs
+	image/jpeg : JPEGs
+	image/gif : GIFS
+	image/svg+xml : SVG Vector images
+	text/plain : Text
+	video/mp4 : MP4s
+	video/x-msvideo : AVIs
+	video/x-msv-wmv : WMVs
+	video/quicktime : MOVs
+	-->
+	
+	
+	<video controls loop>
+		<source src="http://techslides.com/demos/sample-videos/small.mp4" type="video/mp4">
+	</video>
+	<br>
+	<br>
+	<iframe width="560" height="315" 
+	src="https://www.youtube.com/embed/L6sfCB8c0_E" ></iframe>
+	
+	<!-- Links to the bottom by referencing the id -->
+	<br>
+	<a id="pageBottom" href="html5wy.html#pageTop">Goto top of page</a>
+	
+	</div>
+	
+
+</body>
+
+</html>
